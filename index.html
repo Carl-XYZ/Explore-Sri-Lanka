@@ -25,27 +25,28 @@
     }
 
     /* HERO SECTION */
-    .hero {
-      background-image: url("Elephant-cover.png");
-      background-size: cover;
-      background-position: center;
-      padding: 120px 20px;
-      text-align: center;
-      color: #fff;
-      position: relative;
-    }
+   .hero {
+  background-image: url("./Elephant-cover.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 140px 20px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
 
-    .hero::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: rgba(0,0,0,0.45);
-    }
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+}
 
-    .hero-content {
-      position: relative;
-      z-index: 2;
-    }
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
 
     .hero h1 {
       font-size: 3rem;
